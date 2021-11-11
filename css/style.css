@@ -6,14 +6,16 @@
 
 .container {
     width: 1000px;
-    height: 1000px;
+    height: 1200px;
     margin: 0 auto;
-    padding-top: 50px;
 }
 
 .row {
     position: relative;
 }
+
+
+/* Utilities */
 
 .card {
     height: 450px;
@@ -21,8 +23,9 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    margin: 50px 10px;
     display: inline-block;
-    margin-bottom: 100px;
+    cursor: pointer;
 }
 
 .card.first {
@@ -30,9 +33,17 @@
     position: relative;
 }
 
+.card.card.first:hover {
+    background-image: url('../img/1b.webp');
+}
+
 .card.second {
     background-image: url('../img/2.webp');
     position: relative;
+}
+
+.card.card.second:hover {
+    background-image: url('../img/2b.webp');
 }
 
 .card.third {
@@ -40,9 +51,17 @@
     position: relative;
 }
 
+.card.card.third:hover {
+    background-image: url('../img/3b.webp');
+}
+
 .card.fourth {
     background-image: url('../img/4.webp');
     position: relative;
+}
+
+.card.card.fourth:hover {
+    background-image: url('../img/4b.webp');
 }
 
 .card.fifth {
@@ -50,9 +69,17 @@
     position: relative;
 }
 
+.card.card.fifth:hover {
+    background-image: url('../img/5b.webp');
+}
+
 .card.sixth {
     background-image: url('../img/6.webp');
     position: relative;
+}
+
+.card.card.sixth:hover {
+    background-image: url('../img/6b.webp');
 }
 
 .discount {

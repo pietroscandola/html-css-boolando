@@ -11,6 +11,10 @@
     padding-top: 50px;
 }
 
+.row {
+    position: relative;
+}
+
 .card {
     height: 450px;
     width: 300px;
@@ -18,6 +22,7 @@
     background-position: center;
     background-repeat: no-repeat;
     display: inline-block;
+    margin-bottom: 100px;
 }
 
 .card.first {
@@ -27,10 +32,27 @@
 
 .card.second {
     background-image: url('../img/2.webp');
+    position: relative;
 }
 
 .card.third {
     background-image: url('../img/3.webp');
+    position: relative;
+}
+
+.card.fourth {
+    background-image: url('../img/4.webp');
+    position: relative;
+}
+
+.card.fifth {
+    background-image: url('../img/5.webp');
+    position: relative;
+}
+
+.card.sixth {
+    background-image: url('../img/6.webp');
+    position: relative;
 }
 
 .discount {
@@ -67,10 +89,12 @@
 .price-red {
     color: red;
     font-weight: 900;
+    font-size: 12px;
 }
 
 .strike-price {
     text-decoration: line-through;
+    font-size: 12px;
 }
 
 .heart {

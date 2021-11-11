@@ -5,7 +5,7 @@
     }
     
     .container {
-        width: 1000px;
+        width: 900px;
         height: 1200px;
         margin: 40px auto;
     }
@@ -74,4 +74,9 @@
     
     .heart:hover {
         color: red;
+    }
+    
+    .card:hover {
+        background-image: url('../img/1b.webp');
+        z-index: 2;
     }

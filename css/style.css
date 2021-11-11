@@ -5,19 +5,46 @@
 }
 
 .container {
-    max-width: 1000px;
+    width: 1000px;
     height: 1000px;
     margin: 0 auto;
 }
 
 .card {
-    width: 250px;
-    height: 350px;
+    height: 450px;
+    width: 300px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    display: inline-block;
 }
 
 .card.first {
     background-image: url('../img/1.webp');
+    position: relative;
+}
+
+.card.second {
+    background-image: url('../img/2.webp');
+}
+
+.card.third {
+    background-image: url('../img/3.webp');
+}
+
+.discount {
+    color: white;
+    background-color: red;
+    padding: 2px;
+    position: absolute;
+    bottom: 20px;
+}
+
+.sost {
+    color: white;
+    background-color: rgba(2, 137, 92, 1);
+    padding: 2px;
+    position: absolute;
+    bottom: 20px;
+    left: 50px
 }

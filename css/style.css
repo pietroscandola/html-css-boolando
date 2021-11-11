@@ -132,3 +132,7 @@
     right: 0;
     top: 10px;
 }
+
+.heart:hover {
+    color: red;
+}

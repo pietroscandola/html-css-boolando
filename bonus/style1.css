@@ -1,138 +1,77 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.container {
-    width: 1000px;
-    height: 1200px;
-    margin: 0 auto;
-}
-
-.row {
-    position: relative;
-}
-
-
-/* Utilities */
-
-.card {
-    height: 450px;
-    width: 300px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: 50px 10px;
-    display: inline-block;
-    cursor: pointer;
-}
-
-.card.first {
-    background-image: url('../img/1.webp');
-    position: relative;
-}
-
-.card.card.first:hover {
-    background-image: url('../img/1b.webp');
-}
-
-.card.second {
-    background-image: url('../img/2.webp');
-    position: relative;
-}
-
-.card.card.second:hover {
-    background-image: url('../img/2b.webp');
-}
-
-.card.third {
-    background-image: url('../img/3.webp');
-    position: relative;
-}
-
-.card.card.third:hover {
-    background-image: url('../img/3b.webp');
-}
-
-.card.fourth {
-    background-image: url('../img/4.webp');
-    position: relative;
-}
-
-.card.card.fourth:hover {
-    background-image: url('../img/4b.webp');
-}
-
-.card.fifth {
-    background-image: url('../img/5.webp');
-    position: relative;
-}
-
-.card.card.fifth:hover {
-    background-image: url('../img/5b.webp');
-}
-
-.card.sixth {
-    background-image: url('../img/6.webp');
-    position: relative;
-}
-
-.card.card.sixth:hover {
-    background-image: url('../img/6b.webp');
-}
-
-.discount {
-    color: white;
-    background-color: red;
-    padding: 2px;
-    position: absolute;
-    bottom: 20px;
-}
-
-.sost {
-    color: white;
-    background-color: rgba(2, 137, 92, 1);
-    padding: 2px;
-    position: absolute;
-    bottom: 20px;
-    left: 50px
-}
-
-.under-line {
-    position: absolute;
-    top: 450px;
-}
-
-.brand {
-    font-size: 12px;
-}
-
-.description {
-    font-weight: bolder;
-    font-family: Arial, Helvetica, sans-serif
-}
-
-.price-red {
-    color: red;
-    font-weight: 900;
-    font-size: 12px;
-}
-
-.strike-price {
-    text-decoration: line-through;
-    font-size: 12px;
-}
-
-.heart {
-    font-size: 20px;
-    background-color: white;
-    padding: 10px 10px;
-    position: absolute;
-    right: 0;
-    top: 10px;
-}
-
-.heart:hover {
-    color: red;
-}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .container {
+        width: 1000px;
+        height: 1200px;
+        margin: 40px auto;
+    }
+    /* Utilities */
+    
+    .card {
+        position: relative;
+        width: 250px;
+        height: 350px;
+        display: inline-block;
+        margin-top: 30px;
+        cursor: pointer;
+    }
+    
+    img {
+        height: 350px;
+        width: 250px;
+    }
+    
+    .discount {
+        color: white;
+        background-color: red;
+        padding: 2px;
+        position: absolute;
+        bottom: 20px;
+        left: 0;
+    }
+    
+    .sost {
+        color: white;
+        background-color: rgba(2, 137, 92, 1);
+        padding: 2px;
+        position: absolute;
+        bottom: 20px;
+        left: 50px;
+    }
+    
+    .brand {
+        font-size: 12px;
+    }
+    
+    .description {
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif
+    }
+    
+    .price-red {
+        color: red;
+        font-weight: 900;
+        font-size: 12px;
+    }
+    
+    .strike-price {
+        text-decoration: line-through;
+        font-size: 12px;
+    }
+    
+    .heart {
+        font-size: 20px;
+        background-color: white;
+        padding: 10px 10px;
+        position: absolute;
+        right: 0;
+        top: 10px;
+    }
+    
+    .heart:hover {
+        color: red;
+    }

@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
 
-img {
-    width: 100%;
+body {
+    font-size: 16px;
+    font-family: sans-serif;
 }
 
 .container {
@@ -13,12 +14,90 @@ img {
     margin: 0 auto;
 }
 
+.bg-red {
+    background-color: red;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+img {
+    width: 100%;
+}
+
 .card {
     display: inline-block;
-    position: relative;
-    padding: 10px;
-    margin: 30px 0;
-    cursor: pointer;
-    text-align: center;
     width: calc(100% / 3 - 4px);
+    padding: 10px;
+    cursor: pointer;
+    margin: 30px 0;
+}
+
+.image {
+    position: relative;
+}
+
+.card .heart {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background-color: white;
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+
+/* Badges */
+
+.card-badges {
+    position: absolute;
+    width: 100%;
+    bottom: 50px;
+}
+
+.card-badges .badge {
+    color: white;
+    font-weight: bolder;
+    padding: 5px 10px;
+}
+
+.brand {
+    font-size: 12px;
+}
+
+.description {
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.price-red {
+    color: red;
+    font-weight: 900;
+    font-size: 12px;
+}
+
+.strike-price {
+    text-decoration: line-through;
+    font-size: 12px;
+}
+
+.second-image {
+    display: none;
+}
+
+.image:hover .main-image {
+    display: none;
+}
+
+.image:hover .second-image {
+    display: inline-block;
+}
+
+.heart:hover {
+    color: red;
 }
